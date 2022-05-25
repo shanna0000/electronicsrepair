@@ -1,0 +1,133 @@
+body {
+	background-color: rgb(54, 57, 63);
+	text-align: center;
+	font-family: Helvetica;
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+}
+
+h3.h31 {
+	color: rgb(244, 244, 245);
+}
+
+hr.hr1 {
+	width: 30%
+}
+
+h4 {
+	color: rgb(220, 221, 222);
+}
+
+p.p1 {
+	color: rgb(142, 146, 151);
+	font-size: medium;
+}
+
+a:link.links1 {
+  color: rgb(237, 66, 69);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited.links1 {
+  color: rgb(237, 66, 69);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover.links1 {
+  color: snow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active.links1 {
+  color: lightgray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+p.p2 {
+	text-align: left;
+	color: rgb(220, 221, 222);
+}
+
+li {
+	color: rgb(220, 221, 222);
+}
+
+hr.hr2 {
+	width: 25%
+}
+
+p.p3 {
+	color: rgb(220, 221, 222);
+	font-size: medium;
+}
+
+li {
+	text-align: left;
+}
+
+table {
+	border: 1px solid whitesmoke;
+	border-collapse: collapse;
+	width: 1150px;
+}
+
+td.index {
+	width: 150px;
+}
+
+table, td, th {
+	border-collapse: collapse;
+	border: 1px solid whitesmoke;
+}
+
+td.body {
+	text-align: left;
+	padding-inline-start: 23px;
+	color: rgb(220, 221, 222);
+}
+
+a:link.abody {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited.abody {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover.abody {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active.abody {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+td.item, th.item {
+	width: 200px;
+}
+
+td.price, th.price {
+	width: 100px;
+}
+
+table.products {
+	width: 950px;
+}
+
+img {
+	width: 600px;
+}
