@@ -2,26 +2,26 @@ body {
 	background-color: rgb(54, 57, 63);
 	text-align: center;
 	font-family: Helvetica;
+	background-image: url('bg.jpg');
 }
 
-h1 {
+p.h1 {
 	color: rgb(255, 255, 255);
+	font-size: 2em;
 }
 
-h3.h31 {
+p.h3 {
 	color: rgb(244, 244, 245);
+	font-size: 1.17em;
 }
 
-hr.hr1 {
-	width: 30%
-}
-
-h4 {
-	color: rgb(220, 221, 222);
+p.h4 {
+	color: rgb(0, 0, 0);
+	font-size: 1em;
 }
 
 p.p1 {
-	color: rgb(142, 146, 151);
+	color: rgb(250, 250, 250);
 	font-size: medium;
 }
 
@@ -51,19 +51,15 @@ a:active.links1 {
 
 p.p2 {
 	text-align: left;
-	color: rgb(220, 221, 222);
+	color: rgb(209, 209, 209);
 }
 
 li {
 	color: rgb(220, 221, 222);
 }
 
-hr.hr2 {
-	width: 25%
-}
-
 p.p3 {
-	color: rgb(220, 221, 222);
+	color: rgb(252, 252, 252);
 	font-size: medium;
 }
 
@@ -79,6 +75,7 @@ table {
 
 td.index {
 	width: 150px;
+	background-color: rgb(161, 171, 172);
 }
 
 table, td, th {
@@ -89,7 +86,7 @@ table, td, th {
 td.body {
 	text-align: left;
 	padding-inline-start: 23px;
-	color: rgb(220, 221, 222);
+	color: rgb(255, 255, 255);
 }
 
 a:link.abody {
@@ -130,4 +127,8 @@ table.products {
 
 img {
 	width: 600px;
+}
+
+td.index {
+	vertical-align: top;
 }
